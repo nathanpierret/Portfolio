@@ -30,6 +30,7 @@ a:active
 header
 {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 40px;
@@ -71,6 +72,7 @@ nav
 {
     font-size: 28px;
     font-family: 'Varela Round', sans-serif;
+    min-width: 400px;
     text-align: justify;
     text-indent: 50px;
     width: 60%;
@@ -98,6 +100,7 @@ footer
 {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     background-color: mediumpurple;
@@ -108,6 +111,7 @@ footer
 {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     margin-left: 20px;
@@ -119,38 +123,45 @@ footer
 {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .Pied2
 {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: flex-end;
+    flex-wrap: wrap;
 }
 
 #Accueil
 {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     margin-left: 150px;
-    margin-right: 150px;
+}
+
+.Ac
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .Icon
 {
     font-size: 100px;
-    margin-right: 150px;
-    margin-top: 20px;
+    margin: 30px 300px 20px 100px;
     color: #2f2539;
 }
 
 .Icon:hover
 {
-    font-size: 100px;
-    margin-right: 150px;
-    margin-top: 20px;
+    font-size: 150px;
+    margin: 30px 300px 20px 100px;
     color: #acacb9;
 }
 
@@ -172,11 +183,13 @@ footer
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .Icon2
 {
     font-size: 300px;
+    min-font-size: 150px;
     margin-top: 0;
     color: #2f2539;
     margin-bottom: -50px;
@@ -185,6 +198,7 @@ footer
 .Icon2:hover
 {
     font-size: 300px;
+    min-font-size: 150px;
     margin-top: 0;
     color: #c8bb35;
 }
@@ -192,7 +206,9 @@ footer
 .Oops
 {
     font-size: 60px;
+    min-font-size: 30px;
     font-weight: bold;
+    text-align: center;
     color: #2f2539;
 }
 
@@ -204,7 +220,9 @@ footer
 .Oops2
 {
     font-size: 40px;
+    min-font-size: 20px;
     font-weight: bold;
+    text-align: center;
     font-family: 'Varela Round', sans-serif;
     color: #2f2539;
     margin-top: -10px;
@@ -213,4 +231,13 @@ footer
 .Oops2:hover
 {
     color: #c8bb35;
+}
+
+.DoubleLien
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
