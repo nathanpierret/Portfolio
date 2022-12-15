@@ -72,10 +72,10 @@ nav
 {
     font-size: 28px;
     font-family: 'Varela Round', sans-serif;
-    min-width: 400px;
     text-align: justify;
     text-indent: 50px;
     width: 60%;
+    min-width: 200px;
     color: #2f2539;
     border-left: 4px solid #af47c2;
     padding-left: 20px;
@@ -87,6 +87,14 @@ h2
     font-family: 'Alata', sans-serif;
     text-align: center;
     color: #c4c5d6;
+}
+
+h3
+{
+    font-size: 28px;
+    font-family: 'Alata', sans-serif;
+    text-align: left;
+    color: #22c61c;
 }
 
 .P2
@@ -104,7 +112,6 @@ footer
     justify-content: space-around;
     align-items: center;
     background-color: mediumpurple;
-    width: 100%;
 }
 
 .Pied
@@ -140,7 +147,7 @@ footer
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    margin-left: 150px;
+    margin-left: 10%;
 }
 
 .Ac
@@ -240,4 +247,127 @@ footer
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.Button, .Button:hover, .Button:focus, .Button:visited
+{
+    border: 2px #1d1f54 solid;
+    background-color: #1d1f54;
+    color: #acacb9;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.Button:active
+{
+    background-color: #acacb9;
+    border-color: #acacb9;
+    color: #1d1f54;
+}
+
+.Article
+{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Article div
+{
+    margin-bottom: 15px;
+}
+
+.Article article
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.CV
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10%;
+    border-top: 3px solid green;
+    width: 60%;
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+
+.Debut
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.TextCV
+{
+    font-size: 18px;
+    font-family: "Varela Round",sans-serif;
+    color: #c4c5d6;
+}
+
+.LienCV, .LienCV:hover, .LienCV:focus, .LienCV:visited
+{
+    font-size: 18px;
+    font-family: "Varela Round",sans-serif;
+    color: #2f2539;
+}
+
+.LienCV:active
+{
+    color: #acacb9;
+}
+
+.TextCV2
+{
+    font-size: 18px;
+    font-family: "Varela Round",sans-serif;
+    font-weight: bold;
+    color: #c4c5d6;
+}
+
+em
+{
+    font-weight: normal;
+    font-style: italic;
+    color: #2f2539;
+}
+
+.TextCV3
+{
+    font-size: 13px;
+    font-family: "Varela Round",sans-serif;
+    color: #acacb9;
+}
+
+.Button2, .Button2:hover, .Button2:focus, .Button2:visited
+{
+    border: 2px #1d1f54 solid;
+    background-color: #1d1f54;
+    color: #acacb9;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.Button2:active
+{
+    background-color: #acacb9;
+    border-color: #acacb9;
+    color: #1d1f54;
+}
+
+.CV2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 40px;
 }
